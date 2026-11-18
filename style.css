@@ -1,0 +1,45 @@
+body{
+    background-color: cornsilk;
+}
+.navb{
+
+    background-color: rgb(236, 236, 189);
+    margin: 20px;
+
+}
+.navb a{
+    color:rgb(6, 95, 196);
+    margin: 20px;
+    padding:20px;
+}
+.links a{
+    background-color: rgb(216, 248, 248);
+    color:rgb(0, 101, 114);
+}
+.features_container{
+    display: flex;
+    gap: 20px;
+    margin: top 20px;
+
+}
+.features_box{
+    background-color: antiquewhite;
+    padding: 15px;
+    flex: 1;
+    transition: 0.3s;
+
+}
+.features_box:hover{
+    background-color: #fff3e0;
+    border-color: orange;
+    transform: translateY(-5px);
+}
+.register{
+    background-color: rgb(167, 203, 236);
+    padding: 20px;
+    margin:15px;
+}
+.tip{
+    color: rgb(144, 194, 252);
+    padding: 15px;
+}
